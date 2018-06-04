@@ -1,0 +1,97 @@
+[23-Sep-2017 10:53:40 UTC] PHP Fatal error:  Class 'App\CommentReply' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 895
+[23-Sep-2017 10:53:40 UTC] PHP Fatal error:  Class 'App\CommentReply' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 895
+[23-Sep-2017 10:53:41 UTC] PHP Fatal error:  Class 'App\CommentReply' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 895
+[23-Sep-2017 10:53:42 UTC] PHP Fatal error:  Class 'App\CommentReply' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 895
+[23-Sep-2017 10:53:42 UTC] PHP Fatal error:  Class 'App\CommentReply' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 895
+[23-Sep-2017 14:06:29 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/vistecoc/public_html/latest/storage/framework/views/e0a877118fea47507d64352145e51a12f02cb16c.php on line 91
+[23-Sep-2017 14:07:45 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/vistecoc/public_html/latest/storage/framework/views/e0a877118fea47507d64352145e51a12f02cb16c.php on line 91
+[23-Sep-2017 14:07:48 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/vistecoc/public_html/latest/storage/framework/views/e0a877118fea47507d64352145e51a12f02cb16c.php on line 91
+[23-Sep-2017 14:09:21 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/vistecoc/public_html/latest/storage/framework/views/e0a877118fea47507d64352145e51a12f02cb16c.php on line 91
+[23-Sep-2017 14:26:54 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/vistecoc/public_html/latest/storage/framework/views/e0a877118fea47507d64352145e51a12f02cb16c.php on line 91
+[23-Sep-2017 14:33:02 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/vistecoc/public_html/latest/storage/framework/views/e0a877118fea47507d64352145e51a12f02cb16c.php on line 91
+[23-Sep-2017 17:11:51 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/CompanyController.php on line 18
+[23-Sep-2017 17:12:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/CompanyController.php on line 20
+[23-Sep-2017 18:44:13 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Validator' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/CompanyController.php on line 52
+[27-Sep-2017 09:41:48 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Response' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/RegisterController.php on line 40
+[27-Sep-2017 10:03:10 UTC] PHP Fatal error:  Call to a member function errors() on boolean in /home/vistecoc/public_html/latest/app/Http/Controllers/API/RegisterController.php on line 87
+[28-Sep-2017 06:08:10 UTC] PHP Fatal error:  Cannot redeclare App\Providers\RouteServiceProvider::mapHanaRoutes() in /home/vistecoc/public_html/latest/app/Providers/RouteServiceProvider.php on line 89
+[28-Sep-2017 06:08:42 UTC] PHP Fatal error:  Cannot redeclare App\Providers\RouteServiceProvider::mapHanaRoutes() in /home/vistecoc/public_html/latest/app/Providers/RouteServiceProvider.php on line 89
+[28-Sep-2017 06:09:34 UTC] PHP Fatal error:  Cannot redeclare App\Providers\RouteServiceProvider::mapHanaRoutes() in /home/vistecoc/public_html/latest/app/Providers/RouteServiceProvider.php on line 89
+[28-Sep-2017 06:10:53 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/vistecoc/public_html/latest/routes/userprofileapi.php): failed to open stream: No such file or directory' in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/Router.php:329
+Stack trace:
+#0 /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(329): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/vistecoc/...', 329, Array)
+#1 /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(329): Illuminate\Routing\Router::loadRoutes()
+#2 /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(285): Illuminate\Routing\Router->loadRoutes('/home/vistecoc/...')
+#3 /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/vistecoc/...')
+#4 /home/vistecoc/public_html/latest/app/P in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 329
+[28-Sep-2017 06:10:53 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/vistecoc/public_html/latest/routes/userprofileapi.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 329
+[28-Sep-2017 06:58:02 UTC] PHP Fatal error:  Undefined constant 'Illuminate\Support\Facades\Response' in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 06:58:03 UTC] PHP Fatal error:  Undefined constant 'Illuminate\Support\Facades\Response' in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 06:59:18 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 06:59:50 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 07:00:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Controller' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 18
+[28-Sep-2017 07:02:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Controller' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 18
+[28-Sep-2017 07:03:58 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 07:03:58 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 07:03:58 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 07:03:59 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 07:05:50 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Response as Response because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 16
+[28-Sep-2017 10:39:01 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Input as Input because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/CompanyController.php on line 14
+[28-Sep-2017 10:41:34 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Input as Input because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/CompanyController.php on line 14
+[28-Sep-2017 10:42:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Controller' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/CompanyController.php on line 20
+[28-Sep-2017 12:12:46 UTC] PHP Fatal error:  Cannot use object of type Illuminate\Http\JsonResponse as array in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 86
+[28-Sep-2017 12:15:04 UTC] PHP Fatal error:  Cannot use object of type Illuminate\Http\JsonResponse as array in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 86
+[28-Sep-2017 12:16:14 UTC] PHP Fatal error:  Cannot use object of type Illuminate\Http\JsonResponse as array in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 88
+[28-Sep-2017 12:18:21 UTC] PHP Fatal error:  Cannot use object of type Illuminate\Http\JsonResponse as array in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 88
+[28-Sep-2017 13:30:19 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Input' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/FollowController.php on line 27
+[30-Sep-2017 06:09:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\AdsManagerController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserSettingsController.php on line 29
+[30-Sep-2017 06:09:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\AdsManagerController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserSettingsController.php on line 29
+[30-Sep-2017 06:11:53 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\AdsManagerController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserSettingsController.php on line 29
+[30-Sep-2017 06:13:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\AdsManagerController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserSettingsController.php on line 29
+[30-Sep-2017 06:16:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\AdsManagerController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserSettingsController.php on line 29
+[30-Sep-2017 06:20:19 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Input' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/AdsManagerController.php on line 24
+[30-Sep-2017 06:21:18 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Response' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserSettingsController.php on line 36
+[30-Sep-2017 07:59:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Rule' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/CompanyController.php on line 75
+[30-Sep-2017 08:00:14 UTC] PHP Fatal error:  Class 'Illuminate\Support\Facades\Rule' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/CompanyController.php on line 76
+[02-Oct-2017 14:56:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/RegisterController.php on line 154
+[03-Oct-2017 06:58:48 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Users' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/RegisterController.php on line 179
+[03-Oct-2017 07:27:23 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\get_hostname() in /home/vistecoc/public_html/latest/app/Http/Controllers/RegisterController.php on line 188
+[03-Oct-2017 09:01:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\ImageController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 514
+[03-Oct-2017 09:06:18 UTC] PHP Fatal error:  Class 'App\Http\Controllers\ImageController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/PostController.php on line 514
+[04-Oct-2017 14:02:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 183
+[04-Oct-2017 14:02:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 2411
+[04-Oct-2017 14:03:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 695
+[04-Oct-2017 14:03:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 319
+[04-Oct-2017 14:04:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 179
+[04-Oct-2017 14:05:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 575
+[04-Oct-2017 14:06:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 231
+[04-Oct-2017 14:13:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 585
+[04-Oct-2017 14:14:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/Grammar.php on line 197
+[04-Oct-2017 16:16:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/MySqlGrammar.php on line 298
+[04-Oct-2017 16:18:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 208
+[04-Oct-2017 16:21:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1043
+[04-Oct-2017 17:29:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vistecoc/public_html/latest/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 1242
+[05-Oct-2017 08:37:30 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\user' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 415
+[05-Oct-2017 08:39:03 UTC] PHP Fatal error:  Class 'App\user' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 416
+[05-Oct-2017 09:33:53 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(emailTemplate.php): failed to open stream: No such file or directory' in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php:453
+Stack trace:
+#0 /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php(453): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(emailTe...', '/home/vistecoc/...', 453, Array)
+#1 /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php(453): App\Http\Controllers\API\UserController::requireToVar()
+#2 /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php(460): App\Http\Controllers\API\UserController->requireToVar('emailTemplate.p...', 'http://latest.v...')
+#3 /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php(439): App\Http\Controllers\API\UserController->sendMail('ankurdev145@gma...', 'http://latest.v...')
+#4 [internal function]: App\Http\Controllers\API\UserController->forgotPassword(O in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 453
+[05-Oct-2017 09:33:53 UTC] PHP Fatal error:  App\Http\Controllers\API\UserController::requireToVar(): Failed opening required 'emailTemplate.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 453
+[05-Oct-2017 10:20:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\ImageController' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/API/UserController.php on line 192
+[05-Oct-2017 10:23:42 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Input as Input because the name is already in use in /home/vistecoc/public_html/latest/app/Http/Controllers/API/ImageController.php on line 15
+[05-Oct-2017 13:00:16 UTC] PHP Parse error:  syntax error, unexpected '$filename' (T_VARIABLE), expecting function (T_FUNCTION) in /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php on line 195
+[06-Oct-2017 11:50:28 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(emailTemplate.php): failed to open stream: No such file or directory' in /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php:441
+Stack trace:
+#0 /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php(441): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(emailTe...', '/home/vistecoc/...', 441, Array)
+#1 /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php(441): App\Http\Controllers\UserController::requireToVar()
+#2 /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php(448): App\Http\Controllers\UserController->requireToVar('emailTemplate.p...', 'http://latest.v...')
+#3 /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php(425): App\Http\Controllers\UserController->sendMail('nehawebcoir@gma...', 'http://latest.v...')
+#4 [internal function]: App\Http\Controllers\UserController->forgotPassword(Object(Illuminate\Http\Request))
+#5 / in /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php on line 441
+[06-Oct-2017 11:50:28 UTC] PHP Fatal error:  App\Http\Controllers\UserController::requireToVar(): Failed opening required 'emailTemplate.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php on line 441
+[07-Oct-2017 09:19:24 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Hash' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php on line 527
+[07-Oct-2017 09:40:34 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/vistecoc/public_html/latest/app/Http/Controllers/UserController.php on line 507

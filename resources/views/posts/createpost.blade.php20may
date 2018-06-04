@@ -1,0 +1,64 @@
+<div class="pro-trending clearfix">
+    <div id="cp_id"></div>
+    <div id="myModal" class="modal-pre">
+        <div id="myModalContent" class="clearfix">
+            <div class="cp clearfix">
+                <ul>
+                    <li><span class="icon-pencil2">&nbsp;</span>Creat Post</li>
+                  
+                  
+                    <!--<li><span class="icon-camera">&nbsp;</span>Photo/Video Album<input id="post_file" type="file" onchange="validateFile(this)"></li>-->
+                    <li id="close_cp_id" class="pull-right close_cp_hide" ><span class="close pointer" aria-hidden="false" onclick="closeAsModal()">&times;</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cp_box clearfix">
+                <div class="pro-pic">
+                    <?php $profilepic= empty(Session::get('profilepic')) ? URL::to('images/user.png') : URL::to('public/userimages/user_'.Auth::user()->id."/medium/".Session::get('profilepic'))  ?>
+                    
+                    <img src="{{ $profilepic }}">
+                    
+                </div>
+                <div class="pro-txt" id="pro_text_id"> 
+                    <div id="post_description" class="msg_p" contenteditable="true" onfocus="unsetPlaceHolder(this)" onblur="setPlaceHolder(this)" oninput="searchTagsForUser(this)">Whats's on your mind ?</div>
+
+                    <div class="row" id='external_content'>
+
+                    </div> 
+                    <ul class="pro-list">
+                        <!-- starts code for select image -->
+                        <li id="file_preview"> 
+
+                            <img id="imagePreview" class="pro-pic" src=""/>
+
+                            <img id="load_image" class="pro-pic" style="display:none;width:20%"  src="{{ URL::to('public/images/postloader.gif') }}"  />
+
+                        </li>
+                                                    
+                        
+                    </ul>
+                    
+                    <!--<div class="progress" id="progress">
+                        <div id="progress_bar" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                            50%
+                        </div>
+                    </div>-->
+                    
+                </div>
+            </div>
+            <div class="cp clearfix">
+                <ul>
+                    <li><span class="icon-camera">&nbsp;</span>Photo/Video<input id="post_file" type="file" onchange="validateFile(this)"></li>
+                    <li class="pull-right"><input type="submit" id="do_post_submit" class="skybtn" onclick="doPost(this)" value="POST"></li>
+                    <li class="pull-right">
+                        <select class="skybtn" id='publish_status' name='publish_status'>
+                            <option value='2'>Public</option>
+                            <option value='0'>Only Me</option>
+                            <option value='1'>Follower</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</div>
