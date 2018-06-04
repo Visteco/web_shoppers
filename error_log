@@ -1,0 +1,16 @@
+[30-Jan-2018 18:20:58 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/vistecoc/public_html/shoppers/app/Http/Controllers/JobsController.php on line 23
+[19-Feb-2018 15:44:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 882
+[19-Feb-2018 15:44:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 882
+[19-Feb-2018 15:44:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 882
+[19-Feb-2018 15:44:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 882
+[19-Feb-2018 15:44:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 882
+[19-Feb-2018 15:49:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 1367
+[19-Feb-2018 16:43:19 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: userId' in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php:643
+Stack trace:
+#0 /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php(643): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/vistecoc/...', 643, Array)
+#1 /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php(535): App\Http\Controllers\PostController->uploadPostPicsAndVideos()
+#2 [internal function]: App\Http\Controllers\PostController->createPost(Object(Illuminate\Http\Request))
+#3 /home/vistecoc/public_html/shoppers/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/vistecoc/public_html/shoppers/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('createPost', Array)
+#5 /home/vistecoc/public_html/shoppers/vendor/laravel/framework/src/I in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 643
+[19-Feb-2018 16:43:19 UTC] PHP Fatal error:  Cannot access empty property in /home/vistecoc/public_html/shoppers/app/Http/Controllers/PostController.php on line 643
