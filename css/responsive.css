@@ -1,0 +1,421 @@
+@media only screen and (max-width : 320px) {    
+    .header .intro-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text .btn-primary {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .call-to-action h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .call-to-action .btn-primary {
+        padding: 15px;
+        font-size: 13px;
+    }
+    
+    .about-text p {
+        margin-top: 20px;
+    }
+    
+    .skill-shortcode {
+        margin-bottom: 30px;
+    }
+    
+    .footer-link ul {
+        float: left !important;
+        margin-top: 30px;
+    }
+    
+    .footer-social {
+        margin-top: 30px;
+    }
+	
+	.nav ul.dropdown-menu > li > a { 
+    color: white !important; 
+	}
+	.navbar-brand img {
+		height: 42px;
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+	.bannerbox {
+    width: 90%;
+	}
+    .bannerdiv {    
+	padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    width: 190px;
+    display: inline-block;
+	}
+	.bannerdiv input {
+		width: 135px !important;
+	}
+	.bannerbox4 span{
+		display:none;
+	}
+	.uprofilecover {
+    height: 225px;
+    }
+    .uprofile {
+    width: 90%;
+	}
+	.uprofilepic {
+    width: 30%;
+    float: left;
+	}
+	.uprodetail {
+    width: 70%;
+	}
+	.uprosocial {
+    width: 100%;
+	}
+	.viewpro_btn {
+    width: 100%;
+	}
+		
+	.profile-tab li span{
+		display: none;
+	}
+	.pro-pic {
+    width: 30%;
+	}
+	.pro-txt {
+    width: 70%;
+	}
+	.pro-list li {
+    width: 90%;
+	}
+	.jobsearch .js1 {
+    width: 36.6%;
+	}
+}
+
+
+@media only screen and (min-width : 321px) and (max-width : 480px) {    
+    .header .intro-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text .btn-primary {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .call-to-action h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .call-to-action .btn-primary {
+        padding: 15px;
+        font-size: 13px;
+    }
+    
+    .about-text p {
+        margin-top: 20px;
+    }
+    
+    .skill-shortcode {
+        margin-bottom: 30px;
+    }
+    
+    .footer-link ul {
+        float: left !important;
+        margin-top: 30px;
+    }
+    
+    .footer-social {
+        margin-top: 30px;
+    }
+	
+	.nav ul.dropdown-menu > li > a { 
+    color: white !important; 
+	}
+	.navbar-brand img {
+		height: 42px;
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+	.bannerbox {
+    width: 90%;
+	}
+    .bannerdiv {    
+	padding-top: 10px;
+    margin-left: 15px;
+    padding-bottom: 0px;
+    width: 220px;
+    display: inline-block;
+	}
+	.bannerdiv input {
+		width: 160px !important;
+	}
+	.bannerbox4 span{
+		display:none;
+	}
+	.uprofilecover {
+    height: 225px;
+    }
+    .uprofile {
+    width: 90%;
+	}
+	.uprofilepic {
+    width: 30%;
+    float: left;
+	}
+	.uprodetail {
+    width: 70%;
+	}
+	.uprosocial {
+    width: 100%;
+	}
+	.viewpro_btn {
+    width: 100%;
+	}
+		
+	.profile-tab li span{
+		display: none;
+	}
+	.pro-pic {
+    width: 20%;
+	}
+	.pro-txt {
+    width: 80%;
+	}
+	.pro-list li {
+    width: 49%;
+	}
+	.pro-list li:last-child {
+    width: 99%;
+	}
+	.profile-tab i {
+    font-size: 25px;
+	}
+	.shadow_box {
+    margin-right: 15px;
+    margin-left: 15px;
+	}
+	.vletter {
+    width: 100%;
+	}
+	.jobsearch .js1 {
+    width: 45%;
+	}
+	.jobsearch .js2 {
+    width: 31%;
+	}
+}
+
+@media only screen and (min-width : 481px) and (max-width : 600px) {
+    .header .intro-text h1 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text .btn-primary {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .call-to-action h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .call-to-action .btn-primary {
+        padding: 18px;
+        font-size: 15px;
+    }
+    
+    .about-text p {
+        margin-top: 20px;
+    }
+    
+    .skill-shortcode {
+        margin-bottom: 30px;
+    }
+    
+    .footer-link ul {
+        float: left !important;
+        margin-top: 30px;
+    }
+    
+    .footer-social {
+        margin-top: 30px;
+    }
+	
+	.nav ul.dropdown-menu > li > a { 
+    color: white !important; 
+	}
+	.bannerbox {
+    width: 90%;
+	}
+    .bannerdiv {
+    padding-top: 70px;
+    margin-left: 0px;
+	}
+	.bannerbox4 span{
+		display:none;
+	}
+	.uprofilecover {
+    height: 225px;
+    }
+    .uprofile {
+    width: 90%;
+	}
+	.uprofilepic {
+    width: 30%;
+    float: left;
+	}
+	.uprodetail {
+    width: 70%;
+	}
+	.uprosocial {
+    width: 100%;
+	}
+	.viewpro_btn {
+    width: 100%;
+	}
+		
+	.profile-tab li span{
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width : 601px) and (max-width : 800px) {
+    .header .intro-text h1 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text p {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .header .intro-text .btn-primary {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .call-to-action h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .call-to-action .btn-primary {
+        padding: 18px;
+        font-size: 15px;
+    }
+    
+    .about-text p {
+        margin-top: 20px;
+    }
+    
+    .skill-shortcode {
+        margin-bottom: 30px;
+    }
+    
+    .footer-link ul {
+        float: left !important;
+        margin-top: 30px;
+    }
+    
+    .footer-social {
+        margin-top: 30px;
+    }
+	
+	.nav ul.dropdown-menu > li > a { 
+    color: white !important; 
+	}
+	.bannerbox {
+    width: 90%;
+	}
+    .bannerdiv {
+    padding-top: 15px;
+    margin-left: 15px;
+	}
+	.bannerbox4 span{
+		display:none;
+	}
+	.uprofilecover {
+    height: 225px;
+    }
+	.uprofile {
+    width: 90%;
+	}
+	.uprofilepic {
+    width: 30%;
+    float: left;
+	}
+	.uprodetail {
+    width: 70%;
+	}
+	.uprosocial {
+    width: 100%;
+	}
+	.viewpro_btn {
+    width: 100%;
+	}
+		
+	.profile-tab li span{
+		display: none;
+	}
+}
+
+@media only screen and (min-width : 801px) and (max-width : 991px) {
+    .header .intro-text h1 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .header .intro-text p {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .header .intro-text .btn-primary {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width : 992px) and (max-width : 1100px) {
+    
+}
